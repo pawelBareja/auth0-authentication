@@ -10,7 +10,7 @@ export default class Auth {
     redirectUri:
       process.env.NODE_ENV === "development"
         ? "http://localhost:3000/callback"
-        : "https://appbaseio-apps.github.io/reactivesearch-auth0-example/callback",
+        : "https://github.com/pawelBareja/auth0-authentication.git/callback",
     audience: "https://dev-rcsu86r9.us.auth0.com/api/v2/",
     responseType: "token id_token",
     scope: "openid",
